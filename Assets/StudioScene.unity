@@ -1762,64 +1762,10 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 65270985}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &69207837 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 155680, guid: 4d293c8e162f3874b982baadd71153d2, type: 2}
-  m_PrefabInternal: {fileID: 387373522}
 --- !u!4 &69207838 stripped
 Transform:
   m_PrefabParentObject: {fileID: 408470, guid: 4d293c8e162f3874b982baadd71153d2, type: 2}
   m_PrefabInternal: {fileID: 387373522}
---- !u!114 &69207839
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 69207837}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbb9a14d2bbd24c94977985636716f39, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Pointer: {fileID: 0}
-  OriginTransform: {fileID: 1600779299}
-  HeadTransform: {fileID: 69207838}
-  TeleportFadeDuration: 0.2
-  HapticClickAngleStep: 10
-  RoomBorder: {fileID: 0}
-  NavmeshAnimator: {fileID: 0}
-  EnabledAnimatorID: 0
-  FadeMaterial: {fileID: 2100000, guid: c37e6e9caf2b349ffa999b188316ac47, type: 2}
-  FadeMaterialInstance: {fileID: 0}
-  MaterialFadeID: 0
-  Controllers:
-  - {fileID: 1720591357}
-  - {fileID: 197763516}
-  ActiveController: {fileID: 0}
-  <CurrentTeleportState>k__BackingField: 0
-  LastClickAngle: {x: 0, y: 0, z: 0}
-  IsClicking: 0
-  FadingIn: 0
-  TeleportTimeMarker: -1
-  PlaneMesh: {fileID: 0}
---- !u!114 &69207840
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 69207837}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4780613062fb4295b098d97b7f0399b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CachedMeshes: []
-  BorderMaterial: {fileID: 2100000, guid: c3e8cbb57799e43669a2c52c975f4669, type: 2}
-  BorderAlpha: 1
-  LastBorderAlpha: 1
-  AlphaShaderID: 209
-  _Points: []
-  _BorderHeight: 0.2
 --- !u!1 &70800131
 GameObject:
   m_ObjectHideFlags: 0
@@ -57497,7 +57443,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8feef0f746cf91a46b8fac4e2b747347, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BorderMaterial: {fileID: 0}
+  BorderMaterial: {fileID: 2100000, guid: 1a012bd00f38e1b4699aaba9de6e995d, type: 2}
   BorderAlpha: 1
   _BorderHeight: 0.2
 --- !u!1 &2034674758
